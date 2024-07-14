@@ -1,10 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Newtonsoft.Json;
+
 
 namespace ApartmentBookingApp1.Models
 {
+    
     public class BaseResponse
     {
         public BaseResponse(bool status, string code, string message, string field = "", int count = 0, object response = null)

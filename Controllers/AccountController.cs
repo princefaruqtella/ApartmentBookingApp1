@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ApartmentBookingApp1.Dto;
+using ApartmentBookingApp1.Service.Interface;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ApartmentBookingApp1.Controllers
 {
@@ -13,15 +16,13 @@ namespace ApartmentBookingApp1.Controllers
         {
             _accountService = accountService;
         }
-
-        [HttpGet("register-user")]
         public IActionResult RegisterUser()
         {
             return View();
         }
 
 
-        [HttpPost("register-user")]
+        [HttpPost]
         public async Task<IActionResult> RegisterUser(RegisterUserDto request)
         {
             var response = await _accountService.RegisterUser(request);
@@ -32,16 +33,16 @@ namespace ApartmentBookingApp1.Controllers
             }
             return RedirectToAction("RegisterUser");
             
-        }
+        }  
 
-        [HttpGet("login")]
+        [HttpGet]
         public IActionResult Login()
         {
             return View();
         }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> LoginAsync(LoginUserDto request)
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginUserDto request)
         {
             var response = await _accountService.LoginUser(request);
 

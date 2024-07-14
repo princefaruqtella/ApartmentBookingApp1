@@ -7,11 +7,10 @@ namespace ApartmentBookingApp1.Data.Entities
 {
     public class Client : BaseEntity
     {
-        public Guid UserId { get; set; }
-        public string Address { get; set; }
+        public string UserId { get; set; }
         public string NextOfKinName { get; set; }
         public string NextOfKinPhoneNumber { get; set; }
-        public string NextOfKinPAddress { get; set; }
+        public string NextOfKinAddress { get; set; }
         public User User { get; set; }
     }
 }
