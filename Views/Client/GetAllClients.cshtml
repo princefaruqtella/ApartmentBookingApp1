@@ -1,0 +1,21 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+
+      <th scope="col">First name</th>
+      <th scope="col">Last name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone number</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var client in Model){
+        <tr>
+            <td>@client.FirstName</td>
+            <td>@client.LastName</td>
+            <td>@client.Email</td>
+            <td>@client.PhoneNumber</td>
+    </tr>
+    }
+    </tbody>
+</table>
