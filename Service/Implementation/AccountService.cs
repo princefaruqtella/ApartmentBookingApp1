@@ -41,6 +41,8 @@ namespace ApartmentBookingApp1.Service.Implementation
         {
             var user = new User
             {
+                FirstName = request.FirstName,
+                LastName = request.LastName,
                 UserName = request.Email,
                 Email = request.Email,
                 Address = request.Address,

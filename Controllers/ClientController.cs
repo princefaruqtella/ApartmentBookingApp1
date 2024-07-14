@@ -39,8 +39,8 @@ namespace ApartmentBookingApp1.Controllers
             }
             return View(response);
         }
-        public IActionResult GetAllClients(){
-        var clients = _clientService.GetAllClients(); 
+        public async Task<IActionResult> GetAllClients(){
+        var clients = await _clientService.GetAllClients(); 
             return View(clients);
         }
     }

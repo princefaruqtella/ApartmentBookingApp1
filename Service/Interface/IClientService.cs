@@ -9,6 +9,6 @@ namespace ApartmentBookingApp1.Service.Interface
     public interface IClientService
     {
         BaseResponse RegisterClient(RegisterClientDto clientDto);
-        List<ClientDto> GetAllClients();
+        Task<List<ClientDto>> GetAllClients();
     }
 }

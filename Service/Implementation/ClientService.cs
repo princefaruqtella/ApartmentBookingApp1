@@ -4,10 +4,12 @@ using ApartmentBookingApp1.Models;
 using ApartmentBookingApp1.Repositories.Interfaces;
 using ApartmentBookingApp1.Data.Entities;
 using ApartmentBookingApp1.Service.Interface;
+using Microsoft.AspNetCore.Identity;
+
 
 namespace ApartmentBookingApp1.Service.Implementation
 {
-    public class ClientService(IClientRepository _clientRepository) : IClientService
+    public class ClientService(IClientRepository _clientRepository, UserManager<User> _userManager) : IClientService
     {
         public BaseResponse RegisterClient(RegisterClientDto clientDto)
         {
@@ -26,19 +28,25 @@ namespace ApartmentBookingApp1.Service.Implementation
             }
             return new BaseResponse(true, "200", "Registeration successful");
         }
-        public List<ClientDto> GetAllClients()
+        public async  Task<List<ClientDto>> GetAllClients()
         {
             var clients = _clientRepository.GetAllClients();
-            return clients.Select(x => new ClientDto{
-                FirstName = x.User.FirstName,
-                LastName = x.User.LastName,
-                Email = x.User.Email,
+            List<ClientDto> clientDto = new();
+            foreach (var x in clients)
+            {
+                var user = await _userManager.FindByIdAsync(x.UserId);
+                clientDto.Add(new ClientDto{
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
                 Address = x.User.Address,
                 PhoneNumber = x.User.PhoneNumber,
                 NextOfKinName = x.NextOfKinName,
                 NextOfKinPhoneNumber = x.NextOfKinPhoneNumber,
                 NextOfKinAddress = x.NextOfKinAddress
-            }).ToList();
+            });
+            }
+            return clientDto;
         }
     }
 }
