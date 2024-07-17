@@ -1,0 +1,43 @@
+@model ApartmentBookingApp1.Models.BaseResponse
+
+@{
+    ViewData["Title"] = "Register Apartment";
+}
+
+<h2>Register Apartment</h2>
+
+<form asp-action="RegisterApartment" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label class="control-label">Address</label>
+        <input type="text" class="form-control" name="address" placeholder="Enter Address">
+        <span class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label class="control-label"></label>
+        <input type="text" class="form-control" name="localGovernment" placeholder="Enter local Government">
+        <span class="text-danger">LocalGovernment</span>
+    </div>
+    <div class="form-group">
+        <label class="control-label"></label>
+        <input type="text" class="form-control" name="apartmentPrice" placeholder="Enter Apartment price">
+        <span class="text-danger">ApartmentPrice</span>
+    </div>
+     <div class="form-group">
+        <label class="control-label"></label>
+        <input type="text" class="form-control" name="otherCharges" placeholder="Enter other charges">
+        <span class="text-danger">OtherCharges</span>
+    </div>
+    <div class="form-group">
+        <label class="control-label"></label>
+        <input type="text" class="form-control" name="numberOfRooms" placeholder="Enter NumberOfRooms">
+        <span class="text-danger">NumberOfRooms</span>
+    </div>
+    <div class="form-group">
+        <label class="control-label"></label>
+        <input type="file" class="form-control" name="image">
+        <span class="text-danger">Image</span> 
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Register" class="btn btn-primary" />
+    </div>
+</form>

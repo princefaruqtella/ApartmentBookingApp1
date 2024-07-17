@@ -2,7 +2,450 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div id="#top"></div>
+<section id="home">
+  <div class="banner-container"> 
+  	<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item"><img src="~/images/banner-bg.jpg" alt="banner" /></div>
+    <div class="item"><img src="~/images/banner-bg2.jpg" alt="banner" /></div>
+    <div class="item"><img src="~/images/banner-bg3.jpg" alt="banner" /></div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
 </div>
+	
+  </div>  
+  
+  <div class="container hero-text2">
+  <h3>Welcome to our apartments, where comfort meets convenience. Enjoy modern amenities, stylish living spaces, and exceptional service in a prime location. Your perfect home awaits!<br/></h3>
+  </div>
+</section>
+<section id="services" class="page-section colord">
+  <div class="container">
+    <div class="row"> 
+      <!-- item -->
+      <div class="col-md-3 text-center"> <i class="circle"><img src="~/images/5.png" alt="" /></i>
+        <h3>New Projects</h3>
+        <p>Discover modern living at its finest with our latest apartment project. Designed with you in mind, our residences offer a perfect blend of comfort, style, and convenience.</p>
+      </div>
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"><i class="circle"> <img src="~/images/1.png" alt="" /></i>
+        <h3>Plots for Sale</h3>
+        <p>Choose from a variety of leasing terms that fit your needs.</p>
+      </div>
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"><i class="circle"> <img src="~/images/2.png" alt="" /></i>
+        <h3>Luxury Villas</h3>
+        <p>Become part of an elite community with access to exclusive facilities and events.</p>
+      </div>
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"><i class="circle"> <img src="~/images/3.png" alt="" /></i>
+        <h3>Rent a House</h3>
+        <p>Our rental homes are designed with your comfort in mind, featuring modern amenities and spacious layouts.</p>
+      </div>
+      <!-- end:--> 
+    </div>
+  </div>
+  <!--/.container--> 
+</section>
+<section id="aboutUs">
+  <div class="container">
+    <div class="heading text-center"> 
+      <!-- Heading -->
+      <h2>About Us</h2>
+      @* <p></p> *@
+    </div>
+    <div class="row feature design">
+      <div class="area1 columns right">
+        <h3>Clean and Modern Design.</h3>
+        <p>Experience the epitome of elegance with our clean and modern design. Our apartments feature sleek lines, contemporary finishes, and a minimalist aesthetic, creating a serene and stylish living environment. Enjoy the perfect blend of functionality and sophistication, designed to make you feel right at home.</p>
+          <a href="#" class="btn">Request Quote</a>
+      </div>
+      <div class="area2 columns feature-media left"> <img src="~/images/feature-img-1.png" alt="" width="100%"> </div>
+    </div>
+    <div class="row dataTxt">	
+						<div class="col-md-4 col-sm-6">
+							<h4>What We Do?</h4>
+                            <ul class="listArrow">
+                            <li>Beautifully Designed Spaces: Our apartments feature clean, modern designs with stylish finishes and thoughtful layouts.</li>
+                            <li>Top-Notch Amenities: Enjoy access to a range of amenities, including fitness centers, swimming pools, and communal lounges.</li>
+							<li>At our apartment community, we strive to provide a premium living experience with a focus on comfort, convenience, and modern design. Here’s what we offer:</li>
+                            <li>Exceptional Service: Our dedicated team is here to ensure your living experience is seamless and enjoyable.</li>
+                            <li>Prime Locations: We offer convenient locations close to shopping, dining, and entertainment options.</li>
+                            <li>Safe and Secure: Your safety is our priority, with secure access and 24/7 maintenance support.</li>
+                            <li>Come discover a new standard of living with us!.</li>
+                            </ul>
+							<!-- Accordion starts -->
+						</div>
+						
+						<div class="col-md-4 col-sm-6">
+							
+							<h4>Why Choose Us?</h4>
+							<p>Choose us for a living experience that combines modern luxury with unparalleled convenience and service.</p>
+                            <ul class="listArrow">
+								<li>Modern Design: Our apartments feature sleek, contemporary designs that provide a stylish and comfortable living environment.</li>
+								<li>Prime Location: Situated in desirable areas, our apartments offer easy access to shopping, dining, and entertainment.</li>
+								<li>Exceptional Amenities: Enjoy top-notch amenities such as fitness centers, swimming pools, and community lounges.</li>
+								<li>Dedicated Service: Our friendly and professional staff are committed to making your living experience hassle-free and enjoyable.</li>
+								<li>Safety and Security: We prioritize your safety with secure access and 24/7 maintenance support.</li>
+                                <li>Flexible Leasing Options: We offer a variety of leasing terms to fit your lifestyle and needs.</li>
+							</ul>
+							<!-- Accordion starts -->
+							</div>
+						
+						<div class="col-md-4 col-sm-6">
+							 <img src="~/images/img.jpg" alt="" width="100%">
+						</div>
+						
+					</div>
+  </div>
+</section> 
+<section id="work" class="page-section page">
+  <div class="container text-center">
+    <div class="heading">
+      <h2>Projects</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, alias enim placeat earum quos ab.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="portfolio">
+          <ul class="filters list-inline">
+            <li> <a class="active" data-filter="*" href="#">All</a> </li>
+            <li> <a data-filter=".photography" href="#">New Projects</a> </li>
+            <li> <a data-filter=".branding" href="#">Villas</a> </li>
+            <li> <a data-filter=".web" href="#">Plots</a> </li>
+          </ul>
+          <ul class="items list-unstyled clearfix animated fadeInRight showing" data-animation="fadeInRight" style="position: relative; height: 438px;">
+            <li class="item branding" style="position: absolute; left: 0px; top: 0px;"> 
+								 			 
+			  <figure class="effect-bubba">
+						<img src="~/images/work/1.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Trends</h2> 
+							<a href="images/work/1.jpg" class="fancybox">View more</a> 
+						</figcaption>			
+					</figure> 
+					
+			  </li>
+			  
+			 
+			  
+			  
+            <li class="item photography" style="position: absolute; left: 292px; top: 0px;"> 
+			<figure class="effect-bubba">
+						<img src="~/images/work/2.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Trends</h2> 
+							<a href="images/work/2.jpg" class="fancybox">View more</a> 
+						</figcaption>			
+					</figure> 
+			  </li>
+            <li class="item branding" style="position: absolute; left: 585px; top: 0px;"> 
+			<figure class="effect-bubba">
+						<img src="~/images/work/3.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Trends</h2> 
+							<a href="images/work/3.jpg" class="fancybox">View more</a> 
+						</figcaption>			
+					</figure>  
+			  </li>
+            <li class="item photography" style="position: absolute; left: 877px; top: 0px;"> 
+			<figure class="effect-bubba">
+						<img src="~/images/work/4.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Trends</h2> 
+							<a href="images/work/4.jpg" class="fancybox">View more</a> 
+						</figcaption>			
+					</figure>  
+			  </li>
+            <li class="item photography" style="position: absolute; left: 0px; top: 219px;"> 
+			<figure class="effect-bubba">
+						<img src="~/images/work/5.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Trends</h2> 
+							<a href="images/work/5.jpg" class="fancybox">View more</a> 
+						</figcaption>			
+					</figure> 
+			  </li>
+            <li class="item web" style="position: absolute; left: 292px; top: 219px;"> 
+			<figure class="effect-bubba">
+						<img src="~/images/work/6.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Trends</h2> 
+							<a href="images/work/6.jpg" class="fancybox">View more</a> 
+						</figcaption>			
+					</figure> 
+			  </li>
+            <li class="item photography" style="position: absolute; left: 585px; top: 219px;">
+			<figure class="effect-bubba">
+						<img src="~/images/work/7.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Trends</h2> 
+							<a href="images/work/7.jpg" class="fancybox">View more</a> 
+						</figcaption>			
+					</figure> 
+			  </li>
+            <li class="item web" style="position: absolute; left: 877px; top: 219px;">
+			<figure class="effect-bubba">
+						<img src="~/images/work/8.jpg" alt="img02"/>
+						<figcaption>
+							<h2>Trends</h2> 
+							<a href="images/work/8.jpg" class="fancybox">View more</a> 
+						</figcaption>			
+					</figure> 
+			  </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="plans" class="page-section">
+  <div class="container">
+    <div class="heading text-center"> 
+      <!-- Heading -->
+      <h2>Price</h2>
+      <p>Kindly check the below prices listed.</p>
+    </div>
+    <div class="row flat">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <ul class="plan plan1">
+          <li class="plan-name">Basic </li>
+          <li class="plan-price"> <strong>$29</strong> / month </li>
+          <li> <strong>5GB</strong> Storage </li>
+          <li> <strong>1GB</strong> RAM </li>
+          <li> <strong>400GB</strong> Bandwidth </li>
+          <li> <strong>10</strong> Email Address </li>
+          <li> <strong>Forum</strong> Support </li>
+          <li class="plan-action"> <a href="#" class="btn btn-danger btn-lg">Signup</a> </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <ul class="plan plan2 featured">
+          <li class="plan-name">Standard </li>
+          <li class="plan-price"> <strong>$39</strong> / month </li>
+          <li> <strong>5GB</strong> Storage </li>
+          <li> <strong>1GB</strong> RAM </li>
+          <li> <strong>400GB</strong> Bandwidth </li>
+          <li> <strong>10</strong> Email Address </li>
+          <li> <strong>Forum</strong> Support </li>
+          <li class="plan-action"> <a href="#" class="btn btn-danger btn-lg">Signup</a> </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <ul class="plan plan3">
+          <li class="plan-name">Advanced </li>
+          <li class="plan-price"> <strong>$199</strong> / month </li>
+          <li> <strong>50GB</strong> Storage </li>
+          <li> <strong>8GB</strong> RAM </li>
+          <li> <strong>1024GB</strong> Bandwidth </li>
+          <li> <strong>Unlimited</strong> Email Address </li>
+          <li> <strong>Forum</strong> Support </li>
+          <li class="plan-action"> <a href="#" class="btn btn-danger btn-lg">Signup</a> </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <ul class="plan plan4">
+          <li class="plan-name">Mighty </li>
+          <li class="plan-price"> <strong>$999</strong> / month </li>
+          <li> <strong>50GB</strong> Storage </li>
+          <li> <strong>8GB</strong> RAM </li>
+          <li> <strong>1024GB</strong> Bandwidth </li>
+          <li> <strong>Unlimited</strong> Email Address </li>
+          <li> <strong>Forum</strong> Support </li>
+          <li class="plan-action"> <a href="#" class="btn btn-danger btn-lg">Signup</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="team" class="page-section">
+  <div class="container">
+    <div class="heading text-center"> 
+      <!-- Heading -->
+      <h2>Team</h2>
+      <p>Meet our team player.</p>
+    </div>
+    <!-- Team Member's Details -->
+    <div class="team-content">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12"> 
+          <!-- Team Member -->
+          <div class="team-member pDark"> 
+            <!-- Image Hover Block -->
+            <div class="member-img"> 
+              <!-- Image  --> 
+              <img class="img-responsive" src="~/images/photo-1.jpg" alt=""> </div>
+            <!-- Member Details -->
+            <div class="team-title">
+			<h4>John Doe</h4>
+            <!-- Designation --> 
+            <span class="pos">CEO</span>
+			</div>
+            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12"> 
+          <!-- Team Member -->
+          <div class="team-member pDark"> 
+            <!-- Image Hover Block -->
+            <div class="member-img"> 
+              <!-- Image  --> 
+              <img class="img-responsive" src="~/images/photo-2.jpg" alt=""> </div>
+            <!-- Member Details -->
+            <h4>Larry Doe</h4>
+            <!-- Designation --> 
+            <span class="pos">Art Director</span>
+            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12"> 
+          <!-- Team Member -->
+          <div class="team-member pDark"> 
+            <!-- Image Hover Block -->
+            <div class="member-img"> 
+              <!-- Image  --> 
+              <img class="img-responsive" src="~/images/photo-3.jpg" alt=""> </div>
+            <!-- Member Details -->
+            <h4>Ranith Kays</h4>
+            <!-- Designation --> 
+            <span class="pos">Manager</span>
+            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12"> 
+          <!-- Team Member -->
+          <div class="team-member pDark"> 
+            <!-- Image Hover Block -->
+            <div class="member-img"> 
+              <!-- Image  --> 
+              <img class="img-responsive" src="~/images/photo-4.jpg" alt=""> </div>
+            <!-- Member Details -->
+            <h4>Joan Ray</h4>
+            <!-- Designation --> 
+            <span class="pos">Creative</span>
+            <div class="team-socials"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-github"></i></a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/.container--> 
+</section>
+<section id="contactUs" class="contact-parlex">
+  <div class="parlex-back">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center"> 
+          <!-- Heading -->
+          <h2>Contact Us</h2>
+          <p>Reach us at the provided place below</p>
+        </div>
+      </div>
+      <div class="row mrgn30">
+        <form method="post" action="" id="contactfrm" role="form">
+          <div class="col-sm-12">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+            </div>
+            <div class="form-group">
+              <label for="comments">Comments</label>
+              <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+              <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+            </div>
+            <div class="result"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--/.container--> 
+  </div>
+</section>
+<footer>
+<div class="container">
+        <div class="row">
+            <div class="col-md-3">
+            	<div class="col">
+                   <h4>Contact us</h4>
+                   <ul>
+                        <li>1th Avenue, New York - United States</li>
+                        <li>Phone: +22 342 2345 345 | Fax: +22 724 2342 343 </li>
+                        <li>Email: <a href="mailto:info@example.com" title="Email Us">info@example.com</a></li>
+                        <li>Skype: <a href="skype:my.test?call" title="Skype us">my-company</a></li>
+                    </ul>
+                 </div>
+            </div>
+            
+            <div class="col-md-3">
+            	<div class="col">
+                    <h4>Mailing list</h4>
+                    <p>Lorem ipsum dolor sit amet, ea eum labitur scsstie percipitoleat.</p>
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your email address...">
+                            <span class="input-group-btn">
+                                <button class="btn" type="button">Go!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+            	<div class="col col-social-icons">
+                    <h4>Follow us</h4>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#"><i class="fa fa-flickr"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-skype"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div>
+            </div>
+
+             <div class="col-md-3">
+             	<div class="col">
+                    <h4>Latest News</h4>
+                    <p>
+                    NILL.
+                    <br><br>
+                    <a href="#" class="btn">Get Mores!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+         
+    </div>
+    
+</footer>
+<!--/.page-section-->
+<section class="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center"> Copyright 2014 | All Rights Reserved -- Template by -  <a href="http://webThemez.com"> WebThemez.com</a> </div>
+    </div>
+    <!-- / .row --> 
+  </div>
+</section>
+<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 

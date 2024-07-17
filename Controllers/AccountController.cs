@@ -48,10 +48,13 @@ namespace ApartmentBookingApp1.Controllers
 
             if (response.Status)
             {
+                if(response.response != null){
+                    return RedirectToAction("GetAllApartments", "Apartment");
+                }
                 return RedirectToAction("Index","Home");
             }
 
-            return RedirectToAction("login");
+            return View(response);
         }
     }
 }

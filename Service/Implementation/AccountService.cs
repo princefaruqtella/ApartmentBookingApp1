@@ -24,17 +24,19 @@ namespace ApartmentBookingApp1.Service.Implementation
 
             if (loginUser == null)
             {
-                return new BaseResponse(false, "404", "Invalid email or password");
+                return new BaseResponse(false, "404", "Invalid email");
             }
             var response = await _signInManager.PasswordSignInAsync(request.Email, request.Password, false, lockoutOnFailure: false);
 
             if (response.Succeeded)
             {
-
-                return new BaseResponse(true, "001", "Login Successfully");
+                if(loginUser.UserType == UserType.Admin){
+                    return new BaseResponse(true, "200", "Login Successfully", response: "Admin");
+                }
+                return new BaseResponse(true, "200", "Login Successfully");
             }
 
-            return new BaseResponse(false, "004", "invalid username or password");
+            return new BaseResponse(false, "400", "invalid username or password");
         }
 
         public async Task<BaseResponse> RegisterUser(RegisterUserDto request)

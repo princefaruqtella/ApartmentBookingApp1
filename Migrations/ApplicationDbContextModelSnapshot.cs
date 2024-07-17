@@ -32,28 +32,27 @@ namespace ApartmentBookingApp1.Migrations
                     b.Property<decimal>("ApartmentPrice")
                         .HasColumnType("decimal(65,30)");
 
-                    b.Property<int>("ApartmentType")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<byte[]>("Image")
+                    b.Property<string>("Image")
                         .IsRequired()
-                        .HasColumnType("longblob");
+                        .HasColumnType("longtext");
 
-                    b.Property<int>("LocalGovernmentId")
-                        .HasColumnType("int");
+                    b.Property<string>("LocalGovernment")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<int>("NumberOfRooms")
+                        .HasColumnType("int");
 
                     b.Property<decimal>("OtherCharges")
                         .HasColumnType("decimal(65,30)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("LocalGovernmentId");
 
                     b.ToTable("Apartments");
                 });
@@ -397,17 +396,6 @@ namespace ApartmentBookingApp1.Migrations
                         .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("User");
-                });
-
-            modelBuilder.Entity("ApartmentBookingApp1.Data.Entities.Apartment", b =>
-                {
-                    b.HasOne("ApartmentBookingApp1.Data.Entities.LocalGovernment", "LocalGovernment")
-                        .WithMany()
-                        .HasForeignKey("LocalGovernmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("LocalGovernment");
                 });
 
             modelBuilder.Entity("ApartmentBookingApp1.Data.Entities.Booking", b =>

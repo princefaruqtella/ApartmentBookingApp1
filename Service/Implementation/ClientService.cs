@@ -33,7 +33,7 @@ namespace ApartmentBookingApp1.Service.Implementation
             var clients = _clientRepository.GetAllClients();
             List<ClientDto> clientDto = new();
             foreach (var x in clients)
-            {
+             {
                 var user = await _userManager.FindByIdAsync(x.UserId);
                 clientDto.Add(new ClientDto{
                 FirstName = user.FirstName,

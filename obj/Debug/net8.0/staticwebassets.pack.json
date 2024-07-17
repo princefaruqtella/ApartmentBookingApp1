@@ -5,16 +5,392 @@
       "PackagePath": "staticwebassets\\ApartmentBookingApp1.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\css\\isotope.css",
+      "PackagePath": "staticwebassets\\css\\isotope.css"
+    },
+    {
       "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
       "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\font\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\font\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\font\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\font\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\font\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\font\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\font\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\font\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\font\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\font\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\font\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\font\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\core.less",
+      "PackagePath": "staticwebassets\\font\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\font\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\font\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\icons.less",
+      "PackagePath": "staticwebassets\\font\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\larger.less",
+      "PackagePath": "staticwebassets\\font\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\list.less",
+      "PackagePath": "staticwebassets\\font\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\font\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\path.less",
+      "PackagePath": "staticwebassets\\font\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\font\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\spinning.less",
+      "PackagePath": "staticwebassets\\font\\less\\spinning.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\font\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\less\\variables.less",
+      "PackagePath": "staticwebassets\\font\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_spinning.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_spinning.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\font\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\font\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\1.png",
+      "PackagePath": "staticwebassets\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\2.png",
+      "PackagePath": "staticwebassets\\images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\3.png",
+      "PackagePath": "staticwebassets\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\4.png",
+      "PackagePath": "staticwebassets\\images\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\5.png",
+      "PackagePath": "staticwebassets\\images\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\aa9e891e-d0a7-4aff-a2db-b2433f8b5ed2.jpeg",
+      "PackagePath": "staticwebassets\\images\\aa9e891e-d0a7-4aff-a2db-b2433f8b5ed2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\arrows.png",
+      "PackagePath": "staticwebassets\\images\\arrows.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\banner-bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\banner-bg3.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-bg3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\feature-img-1.png",
+      "PackagePath": "staticwebassets\\images\\feature-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\home.png",
+      "PackagePath": "staticwebassets\\images\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\img.jpg",
+      "PackagePath": "staticwebassets\\images\\img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\links-arrow.png",
+      "PackagePath": "staticwebassets\\images\\links-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\message.png",
+      "PackagePath": "staticwebassets\\images\\message.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\photo-1.jpg",
+      "PackagePath": "staticwebassets\\images\\photo-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\photo-2.jpg",
+      "PackagePath": "staticwebassets\\images\\photo-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\photo-3.jpg",
+      "PackagePath": "staticwebassets\\images\\photo-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\photo-4.jpg",
+      "PackagePath": "staticwebassets\\images\\photo-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\work\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\work\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\work\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\work\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\work\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\work\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\work\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\images\\work\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\work\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\fancybox\\Descr.WD3",
+      "PackagePath": "staticwebassets\\js\\fancybox\\Descr.WD3"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\fancybox\\blank.gif",
+      "PackagePath": "staticwebassets\\js\\fancybox\\blank.gif"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\fancybox\\fancybox_loading.gif",
+      "PackagePath": "staticwebassets\\js\\fancybox\\fancybox_loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\fancybox\\fancybox_loading_402x.gif",
+      "PackagePath": "staticwebassets\\js\\fancybox\\fancybox_loading_402x.gif"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\fancybox\\fancybox_overlay.png",
+      "PackagePath": "staticwebassets\\js\\fancybox\\fancybox_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\fancybox\\fancybox_sprite.png",
+      "PackagePath": "staticwebassets\\js\\fancybox\\fancybox_sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\fancybox\\fancybox_sprite_402x.png",
+      "PackagePath": "staticwebassets\\js\\fancybox\\fancybox_sprite_402x.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\fancybox\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\js\\fancybox\\jquery.fancybox.css"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\fancybox\\jquery.fancybox.pack.js",
+      "PackagePath": "staticwebassets\\js\\fancybox\\jquery.fancybox.pack.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\jquery-1.8.2.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.8.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\jquery.fittext.js",
+      "PackagePath": "staticwebassets\\js\\jquery.fittext.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\jquery.isotope.js",
+      "PackagePath": "staticwebassets\\js\\jquery.isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\jquery.isotope.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nav.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\modernizr-latest.js",
+      "PackagePath": "staticwebassets\\js\\modernizr-latest.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\owl-carousel\\AjaxLoader.gif",
+      "PackagePath": "staticwebassets\\js\\owl-carousel\\AjaxLoader.gif"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\owl-carousel\\grabbing.png",
+      "PackagePath": "staticwebassets\\js\\owl-carousel\\grabbing.png"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\owl-carousel\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\js\\owl-carousel\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\owl-carousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\js\\owl-carousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\owl-carousel\\owl.theme.css",
+      "PackagePath": "staticwebassets\\js\\owl-carousel\\owl.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\owl-carousel\\owl.transitions.css",
+      "PackagePath": "staticwebassets\\js\\owl-carousel\\owl.transitions.css"
+    },
+    {
       "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\js\\waypoints.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.js"
     },
     {
       "Id": "C:\\Users\\PRINCE FARUQ TELLA\\ApartmentBookingApp1\\wwwroot\\lib\\bootstrap\\LICENSE",

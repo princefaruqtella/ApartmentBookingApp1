@@ -12,3 +12,4 @@ namespace ApartmentBookingApp1.Service.Interface
         Task<List<ClientDto>> GetAllClients();
     }
 }
+

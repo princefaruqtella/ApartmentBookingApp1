@@ -1,0 +1,28 @@
+<h2>Apartments</h2>
+<a class="btn btn-success" asp-action="RegisterApartment">Add new Apartment</a>
+                        
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+
+      <th scope="col">Image</th>
+      <th scope="col">Address</th>
+      <th scope="col">LocalGovernment</th>
+      <th scope="col">ApartmentPrice</th>
+      <th scope="col">OtherCharges</th>
+      <th scope="col">NumberOfRooms</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var client in Model){
+        <tr>
+            <td><img src="http://localhost:5019/images/@(client.Image)" alt="image"/></td>
+            <td>@client.Address</td>
+            <td>@client.LocalGovernment</td>
+            <td>@client.ApartmentPrice</td>
+            <td>@client.OtherCharges</td>
+            <td>@client.NumberOfRooms</td>
+        </tr>
+    }
+    </tbody>
+</table>
